@@ -301,6 +301,11 @@
     <downloadUrl>https://logging.apache.org/log4j/2.x/download.html</downloadUrl>
     <!-- `repository` from ASF parent POM (id: apache.releases.https) -->
     <!-- `snapshotRepository` from ASF parent POM (id: apache.snapshots.https) -->
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/fedemahf/logging-log4j2</url>
+    </repository>
   </distributionManagement>
 
   <properties>
